@@ -1,3 +1,6 @@
+#ifndef INTEGER_COUNT_H
+#define INTEGER_COUNT_H
+
 #include "Count.h"
 
 class Integer_Count : public Count<int> {
@@ -14,3 +17,5 @@ class Integer_Count : public Count<int> {
         void decrement();
         char* asBase(int number_base);
 };
+
+#endif

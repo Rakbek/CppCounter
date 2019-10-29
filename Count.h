@@ -1,3 +1,6 @@
+#ifndef COUNT_H
+#define COUNT_H
+
 template<class Count_Type>
 class Count {
     public:
@@ -24,3 +27,5 @@ class Count {
         Count_Type value;
         Count_Type reset_value;
 };
+
+#endif
